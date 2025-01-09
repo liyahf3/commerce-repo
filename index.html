@@ -55,7 +55,7 @@
         <div class="col-md-4">
           <div class="card mb-4">
             <img
-              src="https://placehold.co/100"
+              src=""
               class="card-img-top"
               alt="Product 1"
             />
@@ -94,7 +94,7 @@
               // console.log(product.name);
               productHTML += ` <div class = "col-md-4">
               <div class= "card mb-4">
-                <img src="https://placehold.co/100"
+                <img src="${product.image}"
                 class= "card-img-top" alt = "Product 1"/>
                 <div class ="card-body">
                   <h5 class= "card-title">${product.name}</h5>
@@ -121,7 +121,9 @@
         const product = productsData[productId - 1];
 
         let cartItem = {
+          id: product.id,
           name: product.name,
+          price: product.price,
         };
         cart.push(cartItem);
         console.log(cart);
@@ -132,9 +134,21 @@
         const cartList = document.getElementById("cart-list");
         let cartItem = "";
         cart.forEach((product) => {
-          cartItem += `<p>${product.name}</p>`;
+          cartItem += `
+          <div class = "cart-item">
+          <h5>${product.name}</h5>
+          <p>$${product.price} x 2 </p>
+          <button class = "btn btn-danger remove-from-cart" data-id = "${product.id}">
+            Remove
+            </button>
+            </div>
+            `;
+          
         });
         cartList.innerHTML = cartItem;
+        document.querySelectorAll('.remove-from-cart').forEach((button) => {
+          button.addEventListener('click', removeFromCart);
+        });
       }
     });
     </script>
