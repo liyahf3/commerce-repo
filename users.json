@@ -1,14 +1,14 @@
 [
     {
       "id": 1,
-      "name": "Chill Guy",
-      "email": "abc@email.com",
-      "password": 123
+      "name": "Peter Parker",
+      "email": "imnotspiderman@gmail.com",
+      "password": 6178
     },
     {
       "id": 2,
-      "name": "Chill Gay",
-      "email": "def@email.com",
-      "password": 456
+      "name": "Tony Stank",
+      "email": "iamIronman@gmail.com",
+      "password": 26
     }
 ]
