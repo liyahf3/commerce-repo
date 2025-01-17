@@ -38,28 +38,28 @@
         {
           "id": 6,
           "name": "Product 6",
-          "description": "Description for product 6",
+          "description": "Vi Arcane Girl Dinner T-Shirt",
           "price": 15.99,
           "image": "https://img.eletees.com/wp-content/uploads/2024/12/04132701/Vi-Arcane-Girl-Dinner-Shirt-1.jpg"
         },
          {
            "id": 7,
            "name": "Product 7",
-           "description": "Description for product 7",
+           "description": "I have 2 sides normal and freaky shirt",
            "price": 16.99,
            "image": "https://m.media-amazon.com/images/I/B1pppR4gVKL._CLa%7C2140%2C2000%7C814wg05p07L.png%7C0%2C0%2C2140%2C2000%2B0.0%2C0.0%2C2140.0%2C2000.0_AC_UY1000_.png"
          },
          {
            "id": 8,
            "name": "Product 8",
-           "description": "Description for product 8",
+           "description": "Born to sh*t forced to wipe black tee ",
            "price": 18.99,
            "image": "https://res.cloudinary.com/teepublic/image/private/s--J3M2NLne--/t_Resized%20Artwork/c_crop,x_10,y_10/c_fit,h_626/c_crop,g_north_west,h_626,w_470,x_-18,y_0/g_north_west,u_upload:v1462829015:production:blanks:mtl53ofohwq5goqjo9ke,x_-413,y_-325/b_rgb:eeeeee/c_limit,f_auto,h_630,q_auto:good:420,w_630/v1583829691/production/designs/8404059_0.jpg"
          },
          {
            "id": 9,
            "name": "Product 9",
-           "description": "Description for product 9",
+           "description": "Legalize tax fraud black shirt ",
            "price": 19.99,
            "image": "https://foundmyhoodie.com/cdn/shop/products/legalizetaxfraud-01_b7867553-6031-46f5-a408-2826ca57d642.png?v=1687750544"
          }
