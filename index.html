@@ -84,10 +84,13 @@
       crossorigin="anonymous"
     ></script>
     <script>
+      // Event Listener: Waits for DOM to fully load before running code
+
       document.addEventListener("DOMContentLoaded", function () {
         const productList = document.querySelector("#product-list");
         let productsData = [];
         let productHTML = "";
+        //fetch the data from products js file//
         fetch("products.json")
           .then((response) => response.json())
           .then((data) => {
@@ -95,6 +98,7 @@
             productsData = data.products;
             data.products.forEach((product) => {
               // console.log(product.name);
+              // template literals are used her so several lines of strings (HTML) can be typed uninterrupted
               productHTML += ` <div class = "col-md-4">
               <div class= "card mb-4">
                 <img src="${product.image}"
@@ -110,14 +114,16 @@
                    </div>
                 `;
             });
+            // gives the button a click function and allows for add to cart to work//
             productList.innerHTML = productHTML;
             document.querySelectorAll(".add-to-cart").forEach((button) => {
               button.addEventListener("click", addToCart);
             });
           });
       
-
+// set up cart array//
       const cart = [];
+      //add cart product to catch as object//
       function addToCart(event) {
         console.log(event.target.getAttribute("data-id"));
         const productId = event.target.getAttribute("data-id");
@@ -132,7 +138,7 @@
         console.log(cart);
         renderCart();
       }
-
+//update and display cart
       function renderCart() {
         const cartList = document.getElementById("cart-list");
         let cartItem = "";
@@ -163,6 +169,7 @@
         const productIndex = cart.findIndex(
           (product) => product.id == productId,
         );
+        // allows for the item to be replaced or removed when the button is clicked//
         cart.splice(productIndex, 1);
         renderCart();
       }

@@ -176,7 +176,9 @@
     </div>
 
     <script>
+      //waits for DOM to load before running code//
       document.addEventListener("DOMContentLoaded", function () {
+      
        const urlParams = new URLSearchParams(window.location.search);
        const cartSummary = document.getElementById('cart-summary');
        // First Collect all parameters into arrays//
@@ -203,7 +205,7 @@ console.log(ids,names,prices);
         document
         .querySelector('#checkout-form')
         .addEventListener('submit', submitCart);
-
+// uses an event to prevent the checkout page to be submitted//
         function submitCart(event) {
           event.preventDefault();
           console.log('submitted');
@@ -213,6 +215,7 @@ console.log(ids,names,prices);
             data.forEach(user => {
               console.log(user)
                const input = document.getElementById("email");
+               // if the user data doesn't match users.json, then the computer will log an error message
      const inputValue = input.value 
      console.log(inputValue);
      if (user.email != inputValue) {
