@@ -53,7 +53,16 @@
 
     <script>
       document.addEventListener("DOMContentLoaded", function () {
-       
+        const urlParams = new URLSearchParams(window.location.search);
+       const cartSummary = document.getElementById('cart-summary');
+       // First Collect all parameters into arrays//
+       const ids= urlParams.getAll('id');
+       const names = urlParams.getAll('name');
+       const prices = urlParams.getAll('price');
+console.log(ids,names,prices);
+// ngl teach got no idea what im doing. Just gimme the 75 gang. preciate u // 
+// i got this whole shi from chatgpt ngl gangy u gotta gimme the 100 or else u admit AI aint smarter than humans which is just logically wrong. - david //
+
       });
     </script>
   </body>

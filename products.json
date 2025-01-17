@@ -3,35 +3,35 @@
     {
       "id": 1,
       "name": "Product 1",
-      "description": "Description for product 1",
+      "description": "Spongebob: I Paused My Game to Be Here? T-shirt",
       "price": 10.99,
       "image": "https://m.media-amazon.com/images/I/B1pppR4gVKL._CLa%7C2140%2C2000%7C81Vgn4Qfq%2BL.png%7C0%2C0%2C2140%2C2000%2B0.0%2C0.0%2C2140.0%2C2000.0_AC_UY1000_.png"
     },
     {
       "id": 2,
       "name": "Product 2",
-      "description": "Description for product 2",
+      "description": "Forced to be Human Born to be Alpha Shirt",
       "price": 12.99,
       "image": "https://m.media-amazon.com/images/I/B1pppR4gVKL._CLa%7C2140%2C2000%7CA1eT3INnT4L.png%7C0%2C0%2C2140%2C2000%2B0.0%2C0.0%2C2140.0%2C2000.0_AC_UY1000_.png"
     },
     {
       "id": 3,
       "name": "Product 3",
-      "description": "Description for product 3",
+      "description": "I Got That Dog In Me black tee",
       "price": 15.99,
       "image": "https://res.cloudinary.com/teepublic/image/private/s--4nNIHfV---/t_Resized%20Artwork/c_crop,x_10,y_10/c_fit,w_470/c_crop,g_north_west,h_626,w_470,x_0,y_0/g_north_west,u_upload:v1462829015:production:blanks:mtl53ofohwq5goqjo9ke,x_-395,y_-325/b_rgb:eeeeee/c_limit,f_auto,h_630,q_auto:good:420,w_630/v1692357160/production/designs/49385945_0.jpg"
     },
     {
       "id": 4,
       "name": "Product 4",
-      "description": "Description for product 4",
+      "description": "You Know What Else is Massive Ninja T-Shirt",
       "price": 13.99,
       "image": "https://claremontclothing.com/wp-content/uploads/2024/12/You-Know-What-Else-Is-Massive-Ninja-Low-Taper-Fade-Meme-Shirt-1.jpg"
       },
        {
          "id": 5,
          "name": "Product 5",
-         "description": "Description for product 5",
+         "description": "Skibidi Toilet Rizz Ohio Tee ",
          "price": 14.99,
          "image": "https://m.media-amazon.com/images/I/B1pppR4gVKL._CLa%7C2140%2C2000%7C81mvqtjIgRL.png%7C0%2C0%2C2140%2C2000%2B0.0%2C0.0%2C2140.0%2C2000.0_AC_UY1000_.png"
        },
